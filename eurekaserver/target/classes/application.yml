@@ -1,0 +1,25 @@
+server:
+  port: 20000
+#当前是eureka单机的，所有需要配置一下
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://user:123@localhost:20000/eureka
+  instance:
+    hostname: localhost
+
+security:
+  basic:
+    enabled: true #开启安全配置，也就是需要密码，如果不需要设置为false
+
+  user:
+    name: user
+    password: 123 #在设置用户密码后，我们可以修改地址访问风格为CURL風格
+
+spring:
+  application:
+    name: eureka-server
+
+
