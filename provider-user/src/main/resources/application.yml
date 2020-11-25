@@ -1,5 +1,5 @@
 server:
-  port: 7900 #程序启动后的端口，也就是tomcat的端口，可以自己定义
+  port: 7901 #程序启动后的端口，也就是tomcat的端口，可以自己定义
 spring:
   application:
     name: provider-user #应用名称，别名
