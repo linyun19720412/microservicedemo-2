@@ -1,0 +1,22 @@
+server:
+  port: 8300
+spring:
+  application:
+    name: consumer-hystrix-tubine3
+user:
+  url: http://localhost:7900/user/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@localhost:20000/eureka
+
+  instance:
+    prefer-ip-address: true
+turbine:
+  aggregator:
+    cluster-config: CONSUMER-ORDER-FEIGN-HYSTRIX-TURBINE
+  app-config: consumer-order-feign-hystrix-turbine
+  #cluster-name-expression: "'default'"
+turbine.instanceUrlSuffix.CONSUMER-ORDER-FEIGN-HYSTRIX-TURBINE: /feignhystrix/hystrix.stream #配置hystrix.stream的访问地址
+
+

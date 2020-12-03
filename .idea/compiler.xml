@@ -7,10 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekaserver" />
+        <module name="consumer-order-feign-hystrix-turbine" />
+        <module name="consumer-hystrix-tubine" />
+        <module name="consumer-hystrix-tubine4" />
         <module name="consumer-order" />
         <module name="eureka" />
+        <module name="consumer-order-hystrix" />
+        <module name="consumer-order-feign-hystrix" />
         <module name="provider-user" />
+        <module name="eurekaserver" />
+        <module name="apigateway-zuul" />
+        <module name="hystrix-dashboard" />
+        <module name="consumer-order-feign-hystrix-turbine2" />
+        <module name="consumer-hystrix-tubine2" />
+        <module name="consumer-hystrix-tubine3" />
+        <module name="consumer-order-feign-fallbackfactory" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

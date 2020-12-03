@@ -12,3 +12,6 @@ eureka:
 
   instance:
     prefer-ip-address: true
+logging:
+  level:
+    com.qianfeng.springcloud.feign.FeignClient02: debug

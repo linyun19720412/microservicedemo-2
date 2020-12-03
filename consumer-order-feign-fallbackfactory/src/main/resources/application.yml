@@ -1,0 +1,18 @@
+server:
+  port: 8903
+spring:
+  application:
+    name: consumer-order-feign-fallbackfactory
+user:
+  url: http://localhost:7900/user/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@localhost:20000/eureka
+
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
+

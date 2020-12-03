@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/apigateway-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/apigateway-zuul/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-hystrix-tubine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-hystrix-tubine2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-hystrix-tubine3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-hystrix-tubine4/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-feign-fallbackfactory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-feign-hystrix-turbine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-feign-hystrix-turbine2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-feign-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-order-hystrix/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hystrix-dashboard/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-user/src/main/java" charset="UTF-8" />
   </component>
 </project>

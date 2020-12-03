@@ -12,6 +12,17 @@
         <module>provider-user</module>
         <module>consumer-order</module>
         <module>eurekaserver</module>
+        <module>consumer-order-hystrix</module>
+        <module>consumer-order-feign-hystrix</module>
+        <module>consumer-order-feign-fallbackfactory</module>
+        <module>hystrix-dashboard</module>
+        <module>consumer-hystrix-tubine</module>
+        <module>consumer-hystrix-tubine2</module>
+        <module>consumer-hystrix-tubine3</module>
+        <module>consumer-hystrix-tubine4</module>
+        <module>consumer-order-feign-hystrix-turbine</module>
+        <module>consumer-order-feign-hystrix-turbine2</module>
+        <module>apigateway-zuul</module>
     </modules>
     <!--将当前项目声明为springboot项目-->
     <parent>
@@ -34,7 +45,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Edgware.SR4</version>
+                <version>Edgware.SR6</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

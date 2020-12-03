@@ -1,0 +1,9 @@
+com\qianfeng\springcloud\feign\FeignClient01Factory.class
+com\qianfeng\springcloud\ConsumerOrder.class
+com\qianfeng\springcloud\pojo\User.class
+com\qianfeng\config\FeignClient01Config.class
+com\qianfeng\config\FeignClient02Config.class
+com\qianfeng\springcloud\feign\FeignClient02.class
+com\qianfeng\springcloud\feign\FeignClient01Factory$1.class
+com\qianfeng\springcloud\feign\FeignClient01.class
+com\qianfeng\springcloud\controller\OrderController.class

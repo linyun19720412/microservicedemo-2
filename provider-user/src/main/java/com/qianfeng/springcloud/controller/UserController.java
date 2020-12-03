@@ -4,12 +4,14 @@ import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import com.qianfeng.springcloud.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UserController {
+    @Qualifier("eurekaClient")
     @Autowired
     private EurekaClient eurekaClient;
 
@@ -21,6 +23,10 @@ public class UserController {
     public String info(){
         InstanceInfo instanceInfo =eurekaClient.getNextServerFromEureka("PROVIDER-USER",false);
         return instanceInfo.getHomePageUrl();
+    }
+    @GetMapping("/get-user")
+    public User getUser(User user){
+        return user;
     }
 
 }
